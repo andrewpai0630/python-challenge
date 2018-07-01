@@ -12,7 +12,7 @@ with open(budgetCSV, newline="") as csvfile:
         Date.append(row[0])
         Revenue.append(float(row[1]))
 print("Financial Analysis")
-print("____________________________________")
+print("------------------------------------")
 print("Total Months: ", len(Date))
 print("Total Revenue: ", sum(Revenue))
 for i in range(1,len(Revenue)):
